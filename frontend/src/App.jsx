@@ -1,6 +1,7 @@
 import About from "./components/About";
 import Header from "./components/Header";
 import Profile from "./components/Profile";
+import Technologies from "./components/Technologies";
 
 const App = () => {
   return(
@@ -18,6 +19,7 @@ const App = () => {
 
         <div className="body-right col-9">
           <About />
+          <Technologies />
         </div>
 
       </div>
