@@ -2,14 +2,14 @@ import avatar from '../assets/avatar.png'
 
 const Profile = () => {
     return(
-        <div className="profile-container w-100 mt-4">
+        <div className="profile-container w-100 m-4 ">
             <div className="profile-image">
             
-                <img src={avatar} alt="Profile Avatar" className='w-100 h-100' style={{borderRadius : '100%'}}/>
+                <img src={avatar} alt="Profile Avatar" className='mx-auto d-block img-fluid rounded-circle'/>
             
             </div>
 
-            <div className="profile-body ps-4">
+            <div className="profile-body ps-4 ">
                 <div className="titles py-2">
                     <div className='name mb-3'><span className='fs-2'>Giorgi</span> <br /> <span className='fs-4 text-secondary'>Apridonidze</span></div>
                     <h5 >Fullstack Web Developer</h5>
