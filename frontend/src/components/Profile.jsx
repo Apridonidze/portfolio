@@ -2,7 +2,7 @@ import avatar from '../assets/avatar.png'
 
 const Profile = () => {
     return(
-        <div className="profile-container w-100 m-4 ">
+        <div className="profile-container w-100 m-4 d-flex flex-column justify-content-center ">
             <div className="profile-image">
             
                 <img src={avatar} alt="Profile Avatar" className='mx-auto d-block img-fluid rounded-circle'/>

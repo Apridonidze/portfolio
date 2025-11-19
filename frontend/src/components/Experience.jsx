@@ -25,7 +25,9 @@ const Expericne = () => {
                             <li>Communicated With Client on Daily Working Basis.</li>
                         </ul>
                     </div>
-                    <div className="experience-footer"></div>
+                    <div className="experience-footer p-4">
+                        <h6>Used Technologies : <span className='border-bottom '>HTML</span> , <span className='border-bottom '>CSS</span> , <span className='border-bottom '>Javascript</span> And <span className='border-bottom '>Git</span></h6>
+                    </div>
                 </div>
             </div>
         </div>
