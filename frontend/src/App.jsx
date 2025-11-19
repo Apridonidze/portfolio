@@ -1,3 +1,4 @@
+import About from "./components/About";
 import Header from "./components/Header";
 import Profile from "./components/Profile";
 
@@ -7,15 +8,18 @@ const App = () => {
 
       <Header />
 
-      <div className="app-body ">
+      <div className="app-body container-fluid  row">
         
-        <div className="body-left">
+        <div className="body-left col col-3">
         
           <Profile />
         
         </div>
 
-        <div className="body-right"></div>
+        <div className="body-right col-9">
+          <About />
+        </div>
+
       </div>
 
 

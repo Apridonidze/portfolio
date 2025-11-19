@@ -2,7 +2,7 @@ import avatar from '../assets/avatar.png'
 
 const Profile = () => {
     return(
-        <div className="profile-container w-25 mt-4">
+        <div className="profile-container w-100 mt-4">
             <div className="profile-image">
             
                 <img src={avatar} alt="Profile Avatar" className='w-100 h-100' style={{borderRadius : '100%'}}/>
