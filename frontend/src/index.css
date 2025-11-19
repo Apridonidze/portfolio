@@ -15,3 +15,7 @@ body {
     padding: 0 10px; /* optional padding */
   }
 }
+
+.profile-container{
+  max-width: max-content;
+}
