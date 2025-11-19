@@ -1,8 +1,7 @@
-import About from "./components/About";
-import Expericne from "./components/Experience";
+
 import Header from "./components/Header";
 import Profile from "./components/Profile";
-import Technologies from "./components/Technologies";
+import README from "./components/README";
 
 const App = () => {
   return(
@@ -18,10 +17,8 @@ const App = () => {
         
         </div>
 
-        <div className="body-right col-12 col-md-8">
-          <About />
-          <Technologies />
-          <Expericne />
+        <div className="body-right col col-12 col-md-4 mb-4 mb-md-0">
+            <README />
         </div>
 
       </div>

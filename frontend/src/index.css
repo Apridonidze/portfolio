@@ -3,3 +3,15 @@ body {
   color: white;
   overflow-x: hidden;
 }
+.readme-container {
+  width: 60vw; /* default width */
+  margin: 0 auto; /* center it */
+}
+
+/* For small screens */
+@media screen and (max-width: 767px) {
+  .readme-container {
+    width: 93vw; /* full width */
+    padding: 0 10px; /* optional padding */
+  }
+}
