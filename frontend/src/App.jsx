@@ -9,7 +9,7 @@ const App = () => {
 
       <Header />
 
-      <div className="app-body container-fluid" >
+      <div className="app-body py-3" >
         <div className="row">
         <div className="body-left col col-4 ">
         
