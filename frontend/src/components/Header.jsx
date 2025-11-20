@@ -7,7 +7,7 @@ const Header = () => {
             <div className="header-rigth d-flex gap-4 align-items-center">
                         
                     <a href="#about" className="link-offset-3 link-underline link-underline-opacity-0 link-underline-opacity-100-hover">About</a>
-                    <a href="#technologies" className="link-offset-3 link-underline link-underline-opacity-0 link-underline-opacity-100-hover">Skills</a>
+                    <a href="#skills" className="link-offset-3 link-underline link-underline-opacity-0 link-underline-opacity-100-hover">Skills</a>
                     <a href="#projects" className="link-offset-3 link-underline link-underline-opacity-0 link-underline-opacity-100-hover">Projects</a>
 
             </div>
