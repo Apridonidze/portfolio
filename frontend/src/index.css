@@ -16,6 +16,8 @@ body {
   }
 }
 
+
+
 .profile-container{
   max-width: max-content;
 }
@@ -45,5 +47,16 @@ body {
   .alert-container {
     top: 25%;
     left: 25%;
+  }
+}
+
+
+
+@media screen and (max-width: 576px) {
+  
+  .profile-container{
+    width: 95vw;
+    padding: 0;
+    margin: 0;
   }
 }
