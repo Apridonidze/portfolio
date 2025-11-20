@@ -1,3 +1,5 @@
+import pdf from  '../assets/resume/giorgi_apridonidze.pdf'
+
 import avatar from '../assets/avatar.png'; //importing avatar img
 
 const Profile = ( { setToggleAlert } ) => {
@@ -36,7 +38,7 @@ const Profile = ( { setToggleAlert } ) => {
                 <h6 onClick={copyText}><i class="fa-solid fa-envelope" ></i> giorgiapridonidze08@gmail.com</h6>
                 <a className='link-underline link-offset-3 link-underline-opacity-0 link-underline-opacity-100-hover' href="https://www.linkedin.com/in/giorgi-aphridonidze-7aa896291/"><i class="fa-brands fa-square-linkedin"></i>in/giorgi-aphridonidze</a>
                 <a className='link-underline link-offset-3 link-underline-opacity-0 link-underline-opacity-100-hover' href="https://github.com/Apridonidze"><i class="fa-brands fa-square-github"></i>Apridonidze</a>
-                <a className='link-underline link-offset-3 link-underline-opacity-0 link-underline-opacity-100-hover' href="https://media.licdn.com/dms/document/media/v2/D4D2DAQG6qn_t9xaaww/profile-treasury-document-pdf-analyzed/B4DZpF6550IMAg-/0/1762109663240?e=1764806400&v=beta&t=QEhHselOIyz3h5M9gCupkEyCWA23pVU3_m1Ysl1IDYQ" ><i class="fa-regular fa-file"></i> resume.pdf</a>
+                <a className='link-underline link-offset-3 link-underline-opacity-0 link-underline-opacity-100-hover' href={pdf} download><i class="fa-regular fa-file"></i> resume.pdf</a>
             
             </div>
 
