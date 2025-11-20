@@ -1,9 +1,12 @@
 
+import { useState } from "react";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Profile from "./components/Profile";
 import Projects from "./components/Projects";
 import README from "./components/README";
+
+const [toggleAlert , setToggleAlert] = useState(false)
 
 const App = () => {
   return(
@@ -12,6 +15,7 @@ const App = () => {
       <Header />
 
       <div className="app-body py-3" >
+
         
         <div className="row">
 
