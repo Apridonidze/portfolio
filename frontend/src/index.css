@@ -52,9 +52,8 @@ body {
   .header-rigth{
     display: flex;
     justify-content: start;
+  }   
+  .container, .row, .col, .header-container, .profile-container , .projects-container, .readme-container {
+    margin: 0px;
   }
-  
-.container, .row, .col, .header-container, .profile-container , .projects-container, .readme-container {
-  margin: 0px;
-}
 }/*for mobile devices*/
