@@ -10,7 +10,7 @@ const Profile = ( { setToggleAlert } ) => {
     
 
     return(
-        <div className="profile-container container mt-3" >
+        <div className="profile-container container mt-3 " >
 
             <div className="profile-image container">
             
