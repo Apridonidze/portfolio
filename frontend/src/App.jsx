@@ -1,15 +1,15 @@
+import { useState } from "react"; //importing react hook
 
-import { useState } from "react";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Profile from "./components/Profile";
 import Projects from "./components/Projects";
 import README from "./components/README";
-import Alert from "./components/Alert";
+import Alert from "./components/Alert"; //importing components
 
 const App = () => {
   
-  const [toggleAlert,setToggleAlert] = useState({status : false, text : null})
+  const [toggleAlert,setToggleAlert] = useState({status : false, text : null}); //state to toggle Alert component when mail is copied
 
   return(
     <div className="app-container">
@@ -43,4 +43,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default App; //exporting component

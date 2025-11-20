@@ -1,6 +1,6 @@
 import About from "./About";
 import Expericne from "./Experience";
-import Technologies from "./Technologies";
+import Technologies from "./Technologies"; //importing component
 
 const README = () => {
     return(
@@ -17,4 +17,4 @@ const README = () => {
     );
 };
 
-export default README;
+export default README; //exporting component

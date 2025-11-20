@@ -2,55 +2,38 @@ body {
   background-color: #0d1117;
   color: white;
   overflow-x: hidden;
-}
+} /*sets colors for background nad text , hides overflow on sides*/
+
 .readme-container {
-  width: 60vw; /* default width */
-  margin: 0 auto; /* center it */
-}
-
-/* For small screens */
-@media screen and (max-width: 767px) {
-  .readme-container {
-    width: 93vw; /* full width */
-    padding: 0 10px; /* optional padding */
-  }
-}
-
-
+  width: 60vw; 
+  margin: 0 auto; 
+}/*sets widht and margin for component*/
 
 .profile-container{
   max-width: max-content;
-}
-
-
-
-@media screen and (max-width: 767px) {
-  .projects-container{
-    margin: 20px;
-    width: auto;
-}
-}
+} /*gives maxwidth size for profile picute*/
 
 .projects-container img{
-  
-      width: 100%;
-      height: 100%;
-}
+  width: 100%;
+  height: 100%;
+}/*gives max width and height for responsive design*/
 
 .alert-container {
   top: 35%;
   left: 45%;
-}
+}/*sets position of alert message component on large devices*/
 
 @media screen and (max-width: 767px) {
   
   .alert-container {
     top: 25%;
     left: 25%;
-  }
-}
-
-
+  }/*sets alert message components position on smaller devices*/
+  .projects-container{
+    margin: 20px;
+    width: auto;
+  }/*gives less margin to component on larger devices*/
+}/*for tablet devices*/
 
 @media screen and (max-width: 576px) {
   
@@ -58,6 +41,9 @@ body {
     width: 95vw;
     padding: 0;
     margin: 0;
-  }
-
-}
+  }/*gives width to profile container on small devices*/
+  .readme-container {
+    width: 93vw; 
+    padding: 0 10px; 
+  }/*gives with to readme container on smalll  devices*/
+}/*for mobile devices*/

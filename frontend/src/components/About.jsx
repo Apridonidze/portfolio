@@ -4,13 +4,16 @@ const About = () => {
             <div className="about-container p-2 ">
 
                 <div className="about-header border-bottom border-secondary border-3 text-center">
+
                     <h1 className="border-bottom border-secondary pb-3 mb-3">Hi , I Am Giorgi Aphridonidze</h1>
                     <h3>Web Developer Based In Georgia</h3>
+
                 </div>
 
                 <div className="about-body p-2">
 
                     <div className="about">
+                        
                         <div className="about-header"><h3>About Me</h3></div>
 
                         <div className="about-body">
@@ -26,7 +29,7 @@ const About = () => {
 
             </div>
         </section>
-    )
-}
+    );
+};
 
-export default About
+export default About; //exporting component

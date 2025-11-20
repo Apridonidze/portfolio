@@ -1,5 +1,5 @@
-import jobsAppImg from '../assets/projectimg/pr1.png'
-import typingAppImg from '../assets/projectimg/pr2.png'
+import jobsAppImg from '../assets/projectimg/pr1.png';
+import typingAppImg from '../assets/projectimg/pr2.png'; //importing project's image
 
 const Projects = () => {
     return(
@@ -47,4 +47,4 @@ const Projects = () => {
     );
 };
 
-export default Projects;
+export default Projects;//exporting component

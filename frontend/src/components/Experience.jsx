@@ -1,4 +1,5 @@
-import upworkImg from '../assets/tech imgs/upwork.png'
+import upworkImg from '../assets/tech imgs/upwork.png'; //importing img for upwork
+
 const Expericne = () => {
     return(
         <div className="experience-container p-3">
@@ -34,4 +35,4 @@ const Expericne = () => {
     );
 };
 
-export default Expericne;
+export default Expericne; //exporting component
