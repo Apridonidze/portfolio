@@ -5,6 +5,7 @@ import Header from "./components/Header";
 import Profile from "./components/Profile";
 import Projects from "./components/Projects";
 import README from "./components/README";
+import Alert from "./components/Alert";
 
 const App = () => {
   
@@ -17,7 +18,7 @@ const App = () => {
 
       <div className="app-body py-3" >
 
-        {toggleAlert.status && <h1>alert</h1>}
+        {toggleAlert.status && <><div className="alert-background position-fixed top-0 start-0 w-100 h-100 bg-dark opacity-50" onClick={() => setToggleAlert({status : false, text : null})}></div><Alert setToggleAlert={setToggleAlert} toggleAlert={toggleAlert}/></>}
         
         <div className="row">
 
