@@ -10,7 +10,7 @@ const Projects = () => {
                 
                 <div className="row g-3 gap-2 d-flex">
 
-                    <div className="col-12 col-sm-5 d-flex flex-column border border-secondary rounded-2 p-2">
+                    <div className="col-12 col-sm-5 d-flex flex-column border border-secondary rounded-2 p-2" style={{cursor : "pointer"}} onClick={() => window.open('https://github.com/Apridonidze/typing-app')}>
 
                         <div className="project-image-wrapper mb-2 h-100">
                             <img src={jobsAppImg} className='rounded-2 w-100 project-image' />
@@ -25,7 +25,7 @@ const Projects = () => {
 
                     </div>
 
-                    <div className="col-12 col-sm-5 d-flex flex-column border border-secondary rounded-2 p-2">
+                    <div className="col-12 col-sm-5 d-flex flex-column border border-secondary rounded-2 p-2" style={{cursor : "pointer"}} onClick={() => window.open('https://github.com/Apridonidze/jobs-app')}>
 
                         <div className="project-image-wrapper mb-2 h-100 " >
                             <img src={typingAppImg} className='rounded-2 w-100 project-image' />
