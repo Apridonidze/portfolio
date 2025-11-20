@@ -42,7 +42,7 @@ body {
 @media screen and (max-width: 576px) {
 
   .profile-container{
-    width: 95vw;
+    width: 92vw;
     padding: 5vw;
     margin: 0;
   }/*gives width to profile container on small devices*/
