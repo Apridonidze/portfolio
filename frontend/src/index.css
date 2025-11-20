@@ -26,7 +26,6 @@ body {
     display: flex;
     justify-content: end;
   }
-
 @media screen and (max-width: 767px) {
   
   .alert-container {
@@ -53,4 +52,8 @@ body {
     display: flex;
     justify-content: start;
   }
+  .container , .row {
+    margin: 0px;
+  }
 }/*for mobile devices*/
+
