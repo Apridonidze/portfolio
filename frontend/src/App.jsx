@@ -16,7 +16,7 @@ const App = () => {
 
       <Header />
 
-      <div className="app-body py-3" >
+      <div className="app-body py-3 d-flex flex-column py-2 " >
 
         {toggleAlert.status && <><div className="alert-background position-fixed top-0 start-0 w-100 h-100 bg-dark opacity-50" onClick={() => setToggleAlert({status : false, text : null})}></div><Alert setToggleAlert={setToggleAlert} toggleAlert={toggleAlert}/></>}
         

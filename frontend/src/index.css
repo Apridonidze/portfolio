@@ -11,6 +11,7 @@ body {
 
 .profile-container{
   max-width: max-content;
+  margin: 0px;
 } /*gives maxwidth size for profile picute*/
 
 .projects-container img{
@@ -53,7 +54,7 @@ body {
     justify-content: start;
   }
   
-.container, .row, .col, .header-container, .projects-container, .readme-container {
+.container, .row, .col, .header-container, .profile-container , .projects-container, .readme-container {
   margin: 0px;
 }
 }/*for mobile devices*/
