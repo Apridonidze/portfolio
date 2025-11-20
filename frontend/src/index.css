@@ -52,8 +52,8 @@ body {
     display: flex;
     justify-content: start;
   }
-  .container , .row {
-    margin: 0px;
-  }
+  
+.container, .row, .col, .header-container, .projects-container, .readme-container {
+  margin: 0px;
+}
 }/*for mobile devices*/
-
