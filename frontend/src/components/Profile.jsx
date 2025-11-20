@@ -1,21 +1,16 @@
 import avatar from '../assets/avatar.png'
 
-const copyText = () => {
-    navigator.clipboard.writeText('giorgiapridonidze08@gmail.com')
-    .then(() => {
-      // Success message (optional)
-      console.log('Text copied to clipboard successfully!');
-      alert('Text copied!');
-    })
-    .catch(err => {
-      // Error handling (optional)
-      console.error('Failed to copy text: ', err);
-      alert('Failed to copy text.');
+
+
+const Profile = ( { setToggleAlert } ) => {
+
+    const copyText = () => {
+        navigator.clipboard.writeText('giorgiapridonidze08@gmail.com').then(() => {setToggleAlert({status : true , text : 'Gmail Copied'})}).catch(err => {
+      setToggleAlert({status : true , text : 'Gmail Was Not Copied'})
     });
-}
+    }
+    
 
-
-const Profile = () => {
     return(
         <div className="profile-container container" >
             <div className="profile-image container">
