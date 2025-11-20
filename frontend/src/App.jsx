@@ -1,4 +1,5 @@
 
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Profile from "./components/Profile";
 import Projects from "./components/Projects";
@@ -11,21 +12,26 @@ const App = () => {
       <Header />
 
       <div className="app-body py-3" >
+        
         <div className="row">
-        <div className="body-left col col-4 ">
-        
-          <Profile />
-        
-        </div>
 
-        <div className="body-right d-flex flex-column col cols-8 ">
-            <README />
-            <Projects />
+          <div className="body-left col col-4 ">
+          
+            <Profile />
+          
+          </div>
+
+          <div className="body-right d-flex flex-column col cols-8 ">
+              <README />
+              <Projects />
+          </div>
+
         </div>
 
       </div>
 
-</div>
+      <Footer />
+
     </div>
   );
 };
