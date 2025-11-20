@@ -44,6 +44,6 @@ body {
   }/*gives width to profile container on small devices*/
   .readme-container {
     width: 93vw; 
-    padding: 0 10px; 
+    margin-right: 5px;
   }/*gives with to readme container on smalll  devices*/
 }/*for mobile devices*/
