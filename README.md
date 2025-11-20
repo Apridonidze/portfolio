@@ -1,16 +1,60 @@
-# React + Vite
+# Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fully responsive developer portfolio built using Vite, React, and Bootstrap.
+Includes an overview of my skills, featured projects, and contact section. Designed to be fast, clean, and easy to navigate. This portfolio serves as my main place to present my work and experience as a web developer.
 
-Currently, two official plugins are available:
+### You Can Visit Website or Run App Locally on Your Machine 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## React Compiler
+## Design
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+![Alt text](/frontend/src/assets/design/png1.png)
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Features 
+
+- Built with React + Vite for fast performance and a modern development setup
+- Fully responsive design, optimized for both desktop and mobile
+- Navigation header for quick access to all portfolio sections
+- Profile section introducing who I am and providing key contact information
+- About Me section with a short overview of my background
+- Skills section highlighting the technologies and tools I use
+- Work Experience section outlining my professional journey
+- Projects section showcasing my personal and practical projects
+
+## Technologies
+
+- React + Vite
+- Bootstrap
+- Git
+
+- Deployemnet : **Vercel**
+
+## Installation
+
+1. Clone Repository - 
+
+    git clone https://github.com/Apridonidze/portfolio
+
+2. Install Dependencies - 
+
+    cd frontend npm install
+
+3. Running the App : 
+
+    cd frontend npm run dev
+
+
+## Project Structure 
+
+portfolio/
+├── public/
+│ └── …
+├── src/
+│ ├── assets/
+│ ├── components/
+│ ├── pages/
+│ └── App.jsx
+├── index.html
+├── package.json
+└── vite.config.js
