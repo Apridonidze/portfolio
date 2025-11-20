@@ -22,6 +22,10 @@ body {
   top: 35%;
   left: 45%;
 }/*sets position of alert message component on large devices*/
+.header-rigth{
+    display: flex;
+    justify-content: end;
+  }
 
 @media screen and (max-width: 767px) {
   
@@ -45,5 +49,8 @@ body {
   .readme-container {
     width: 93vw; 
   }/*gives with to readme container on smalll  devices*/
-
+  .header-rigth{
+    display: flex;
+    justify-content: start;
+  }
 }/*for mobile devices*/

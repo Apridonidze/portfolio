@@ -1,13 +1,13 @@
 const Header = () => {
     return(
-        <div className="header-container container-fluid px-5 d-flex  justify-content-between py-3 mt-2 border-bottom border-secondary" style={{backgroundColor : '#010409'}}>
+        <div className="container-fluid px-5 py-3 mt-2 border-bottom border-secondary" style={{backgroundColor : '#010409'}}>
             
-            <div className="row row-cols-1 row-cols-sm-2 g-3">
-                <div className="header-left col">
+                <div className="row align-items-center">
+                <div className="header-left col-12 col-sm-6">
                     <h5>Giorgi Apridonidze / Portfolio</h5>
                 </div>
 
-                <div className="header-rigth col d-flex gap-4 align-items-center">
+                <div className="header-rigth col-12 col-sm-6 gap-3 ">
                             
                     <a href="#about" className="link-offset-3 link-underline link-underline-opacity-0 link-underline-opacity-100-hover">About</a>
                     <a href="#skills" className="link-offset-3 link-underline link-underline-opacity-0 link-underline-opacity-100-hover">Skills</a>
@@ -15,7 +15,7 @@ const Header = () => {
 
                 </div>
             </div>
-        </div>
+            </div>
     );
 };
 
