@@ -28,7 +28,7 @@ const App = () => {
           
           </div>
 
-          <div className="body-right d-flex flex-column col cols-8 ">
+          <div className="body-right d-flex flex-column col cols-8 mx-auto ">
               <README />
               <Projects />
           </div>

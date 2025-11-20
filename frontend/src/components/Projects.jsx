@@ -4,7 +4,7 @@ import typingAppImg from '../assets/projectimg/pr2.png'; //importing project's i
 const Projects = () => {
     return(
         <section id='projects'>
-            <div className="projects-container container mt-3 ms-4 rounded-1 p-2">
+            <div className="projects-container container mt-3 ms-3 rounded-1 p-2">
             
                 <h4 className='pb-3'>Projects</h4>
                 

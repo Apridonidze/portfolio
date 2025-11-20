@@ -36,14 +36,14 @@ body {
 }/*for tablet devices*/
 
 @media screen and (max-width: 576px) {
-  
+
   .profile-container{
-    width: 95vw;
-    padding: 0;
+    width: 100vw;
+    padding: 5vw;
     margin: 0;
   }/*gives width to profile container on small devices*/
   .readme-container {
     width: 93vw; 
-    margin-right: 5px;
   }/*gives with to readme container on smalll  devices*/
+
 }/*for mobile devices*/
