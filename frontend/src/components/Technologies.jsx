@@ -20,29 +20,31 @@ const techData = [
 
 const Technologies = () => {
   return (
-    <div className="technologies-container p-3">
-      <div className="technologies-header">
-        <h3>Skills & Technologies</h3>
-      </div>
+    <section id='skills'>
+      <div className="technologies-container p-3">
+        <div className="technologies-header">
+          <h3>Skills & Technologies</h3>
+        </div>
 
-      <div className="technologies-body d-flex flex-wrap gap-3 px-2 py-2 justify-content-start">
-        {techData.map((tech, index) => (
-            <div key={index} className="tech d-flex border border-secondary p-3 rounded-3 align-items-center"style={{ width: '220px' }} >
-                <div className="tech-left me-3">
-                
-                    <img src={tech.img} alt={tech.name} style={{ maxWidth: tech.maxWidth, height: 'auto' }} />
-                
-                </div>
-            
-                <div className="tech-right">
-                    <h5 className="mb-1">{tech.name}</h5>
-                    <small>{tech.desc}</small>
-                </div>
+        <div className="technologies-body d-flex flex-wrap gap-3 px-2 py-2 justify-content-start">
+          {techData.map((tech, index) => (
+              <div key={index} className="tech d-flex border border-secondary p-3 rounded-3 align-items-center"style={{ width: '220px' }} >
+                  <div className="tech-left me-3">
+                  
+                      <img src={tech.img} alt={tech.name} style={{ maxWidth: tech.maxWidth, height: 'auto' }} />
+                  
+                  </div>
+              
+                  <div className="tech-right">
+                      <h5 className="mb-1">{tech.name}</h5>
+                      <small>{tech.desc}</small>
+                  </div>
 
-          </div>
-        ))}
-      </div>
+            </div>
+          ))}
+        </div>
     </div>
+    </section>
   );
 };
 
