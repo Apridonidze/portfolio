@@ -1,6 +1,7 @@
 
 import Header from "./components/Header";
 import Profile from "./components/Profile";
+import Projects from "./components/Projects";
 import README from "./components/README";
 
 const App = () => {
@@ -17,8 +18,9 @@ const App = () => {
         
         </div>
 
-        <div className="body-right col cols-8">
+        <div className="body-right d-flex flex-column col cols-8 ">
             <README />
+            <Projects />
         </div>
 
       </div>
