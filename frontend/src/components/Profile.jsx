@@ -16,7 +16,7 @@ const Profile = ( { setToggleAlert } ) => {
 
             <div className="profile-image container">
             
-                <img src={avatar} alt="Profile Avatar" className='mx-auto d-block img-fluid rounded-circle'/>
+                <img src={avatar} alt="Profile Avatar" className='mx-auto d-block img-fluid rounded-circle border border-secondary border-3'/>
             
             </div>
 
