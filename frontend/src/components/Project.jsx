@@ -20,7 +20,7 @@ const Project = ( { project , key ,id } ) => {
             <div className="project-body p-1 flex-grow-1">
                 <h5>{project.title}</h5>
                 <small>{project.description}</small><br /><br />
-                <small>Technologies Used : {project.technologies.map((tech , id) => (<span className="mx-1 border-bottom px-1 " key={id}>{tech}</span>))}</small>
+                <small className="text-break">Technologies Used : {project.technologies.map((tech , id) => (<span className="mx-1 border-bottom px-1 " key={id}>{tech}</span>))}</small>
             </div>
 
         </div>

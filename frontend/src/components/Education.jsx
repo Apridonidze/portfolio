@@ -1,6 +1,6 @@
 const Education = () => {
     return(
-        <div className="education-container container mt-3 mx-1 p-2 ">
+        <div className="education-container container mt-3 mx-0 p-2 " style={{width : '45vw'}}>
             
             <h3 className='pb-4'>Education</h3>
                 

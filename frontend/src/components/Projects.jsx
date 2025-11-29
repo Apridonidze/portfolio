@@ -15,7 +15,7 @@ const Projects = () => {
 
     return(
         <section id='projects'>
-            <div className="projects-container container mt-3 mx-1 rounded-1 p-2">
+            <div className="projects-container container mt-3  rounded-1 p-2 mx-0" style={{width : '60vw'}}>
             
                 <h4 className='pb-3'>Projects</h4>
                 

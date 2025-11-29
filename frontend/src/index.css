@@ -40,6 +40,13 @@ body {
   visibility:visible;
 }
 
+@media screen and (max-width: 800px) {
+  body{
+    overflow-x: hidden;
+    max-width: 98vw;
+  }
+}
+
 @media screen and (max-width: 767px) {
   
   .alert-container {
