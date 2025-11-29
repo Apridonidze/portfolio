@@ -10,6 +10,7 @@ const Education = () => {
                 <h5>High School Student</h5>
                 <h5>Focus : Actively developing full-stack skills alongside my high school studies</h5>
                 <h6>Expected Graduation: 2026</h6>
+                
             </div>
 
         </div>

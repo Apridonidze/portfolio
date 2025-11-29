@@ -1,4 +1,4 @@
-import pdf from  '../assets/resume/giorgi_apridonidze.pdf'
+import pdf from  '../assets/resume/giorgi_apridonidze.pdf'; //importing pdf file
 
 import avatar from '../assets/avatar.png'; //importing avatar img
 

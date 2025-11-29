@@ -7,9 +7,9 @@ import cssImg from '../assets/tech imgs/css.png';
 import jsImg from '../assets/tech imgs/js.png'; //importing technologiy's imgs
 
 import gitImg from '../assets/tech imgs/git.png';
-import githubImg from '../assets/tech imgs/github.png'
-import vercelImg from '../assets/tech imgs/vercel.png'
-import railwayImg from '../assets/tech imgs/railway.svg'
+import githubImg from '../assets/tech imgs/github.png';
+import vercelImg from '../assets/tech imgs/vercel.png';
+import railwayImg from '../assets/tech imgs/railway.svg'; //importing tools imgs
 
 const techData = [
   { img: reactImg, name: 'React', desc: 'JavaScript Library', maxWidth: '80px' },
@@ -26,8 +26,7 @@ const otherTools = [
     { img: githubImg, name: 'GitHub', desc: 'Code Hosting', maxWidth: '80px' },
     { img: vercelImg, name: 'Vercel', desc: 'Frontend Deployment', maxWidth: '80px' },
     { img: railwayImg, name: 'Railway', desc: 'Backend/Database Deployment', maxWidth: '80px' },
-
-]
+]; //array to easily map tools in component
 
 const Technologies = () => {
   return (
