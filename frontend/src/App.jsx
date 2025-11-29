@@ -6,6 +6,7 @@ import Profile from "./components/Profile";
 import Projects from "./components/Projects";
 import README from "./components/README";
 import Alert from "./components/Alert"; //importing components
+import Education from "./components/Education";
 
 const App = () => {
   
@@ -31,6 +32,7 @@ const App = () => {
           <div className="body-right d-flex flex-column col cols-8 mx-auto ">
               <README />
               <Projects />
+              <Education />
           </div>
 
         </div>
