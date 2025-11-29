@@ -1,6 +1,6 @@
 const Project = ( { project , key ,id } ) => {
     return(
-        <div className="project col-12 col-lg-5 d-flex flex-column border border-secondary rounded-2 p-2" style={{cursor : "pointer"}} >
+        <div className="project col-12 col-lg-5 d-flex flex-column border border-secondary rounded-2 p-2 " style={{cursor : "pointer"}} >
 
             <div className="project-image-wrapper mb-2 h-100">
                 <img src={project.img} className='rounded-2 w-100 project-image' />

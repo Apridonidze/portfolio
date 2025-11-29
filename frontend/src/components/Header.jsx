@@ -1,6 +1,6 @@
 const Header = () => {
     return(
-        <div className="container-fluid px-5 py-3 mt-2 border-bottom border-secondary" style={{backgroundColor : '#010409'}}>
+        <div className="container-fluid px-5 py-3 border-bottom border-secondary" style={{backgroundColor : '#010409'}}>
             
                 <div className="row align-items-center">
                 <div className="header-left col-12 col-sm-6">
