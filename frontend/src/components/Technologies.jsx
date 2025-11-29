@@ -12,20 +12,20 @@ import vercelImg from '../assets/tech imgs/vercel.png';
 import railwayImg from '../assets/tech imgs/railway.svg'; //importing tools imgs
 
 const techData = [
-  { img: reactImg, name: 'React', desc: 'JavaScript Library', maxWidth: '80px' },
-  { img: bootstrapImg, name: 'Bootstrap', desc: 'CSS Framework', maxWidth: '80px' },
-  { img: expressImg, name: 'Express', desc: 'Node.js Framework', maxWidth: '80px' },
-  { img: mysqlImg, name: 'MySQL', desc: 'Relational Database', maxWidth: '80px' },
-  { img: htmlImg, name: 'HTML', desc: 'Markup Language', maxWidth: '80px' },
-  { img: cssImg, name: 'CSS', desc: 'Styling Language', maxWidth: '80px' },
-  { img: jsImg, name: 'JavaScript', desc: 'Programming Language', maxWidth: '80px' },
+  { img: reactImg, name: 'React', desc: 'JavaScript Library'},
+  { img: bootstrapImg, name: 'Bootstrap', desc: 'CSS Framework'},
+  { img: expressImg, name: 'Express', desc: 'Node.js Framework'},
+  { img: mysqlImg, name: 'MySQL', desc: 'Relational Database'},
+  { img: htmlImg, name: 'HTML', desc: 'Markup Language'},
+  { img: cssImg, name: 'CSS', desc: 'Styling Language'},
+  { img: jsImg, name: 'JavaScript', desc: 'Programming Language', },
 ]; //array to easily map technologies in component
 
 const otherTools = [
-    { img: gitImg, name: 'Git', desc: 'Version Control', maxWidth: '80px' },
-    { img: githubImg, name: 'GitHub', desc: 'Code Hosting', maxWidth: '80px' },
-    { img: vercelImg, name: 'Vercel', desc: 'Frontend Deployment', maxWidth: '80px' },
-    { img: railwayImg, name: 'Railway', desc: 'Backend/Database Deployment', maxWidth: '80px' },
+    { img: gitImg, name: 'Git', desc: 'Version Control'},
+    { img: githubImg, name: 'GitHub', desc: 'Code Hosting'},
+    { img: vercelImg, name: 'Vercel', desc: 'Frontend Deployment'},
+    { img: railwayImg, name: 'Railway', desc: 'Backend/Database Deployment'},
 ]; //array to easily map tools in component
 
 const Technologies = () => {
@@ -71,7 +71,7 @@ const Technologies = () => {
               <div key={id} className="d-flex border border-secondary p-3 rounded-3  h-100 align-items-center gap-3">
                 <div className="tool-left ">
                     
-                  <img src={tool.img} alt={tool.name} className='bg-white rounded-circle w-100 h-100' style={{maxWidth:'200px'}}/>
+                  <img src={tool.img} alt={tool.name} className='bg-white rounded-circle p-1 w-100 h-100' style={{maxWidth:'200px'}}/>
                     
                 </div>
                 
