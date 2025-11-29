@@ -3,14 +3,14 @@ const About = () => {
         <section id="about">
             <div className="about-container p-2 ">
 
-                <div className="about-header border-bottom border-secondary border-3 text-center">
+                <div className="about-header border-bottom border-secondary border-3 py-2 text-center">
 
                     <h1 className="border-bottom border-secondary pb-3 mb-3">Hi , I Am Giorgi Aphridonidze</h1>
                     <h3>Web Developer Based In Georgia</h3>
 
                 </div>
 
-                <div className="about-body p-2">
+                <div className="about-body px-2 pt-3">
 
                     <div className="about">
                         
