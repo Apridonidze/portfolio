@@ -7,9 +7,9 @@ import Project from './Project';
 const Projects = () => {
 
     const projectsList = [
-        {title : 'Jobs-App' , img : jobsAppImg , description : 'A secure job board web app where users can browse, apply, and save jobs, while recruiters can post jobs and manage applicants. Built with React, Node.js, and MySQL', gitURL : 'https://github.com/Apridonidze/jobs-app' , liveURL : null},
-        {title : 'Typing-App' , img : typingAppImg , description : `It's a simple typing app with custom themes and font size that are saved locally. Frontend fetches words from middleware server with axios. (Words are stored in JSON format with 500 random and unique words).`, gitURL : 'https://github.com/Apridonidze/typing-app' , liveURL : null},
-        {title : 'Driver-Tickets' , img :driverTicketsImg , description : 'A web app for managing driver tickets, allowing users to track, answer, and save tickets.', gitURL : 'https://github.com/Apridonidze/driver-tickets' , liveURL : 'https://driver-tickets.vercel.app/'},
+        {title : 'Jobs-App' , img : jobsAppImg , description : 'A secure job board web app where users can browse, apply, and save jobs, while recruiters can post jobs and manage applicants. Built with React, Node.js, and MySQL', gitURL : 'https://github.com/Apridonidze/jobs-app' , liveURL : null , technologies : ['React' , 'Boostrap' , 'Css', 'Express.js' , 'MySql' , 'Git']},
+        {title : 'Typing-App' , img : typingAppImg , description : `It's a simple typing app with custom themes and font size that are saved locally. Frontend fetches words from middleware server with axios. (Words are stored in JSON format with 500 random and unique words).`, gitURL : 'https://github.com/Apridonidze/typing-app' , liveURL : null , technologies : ['React' , 'Boostrap' , 'Css', 'Express.js' , 'Git']},
+        {title : 'Driver-Tickets' , img :driverTicketsImg , description : 'A web app for managing driver tickets, allowing users to track, answer, and save tickets.', gitURL : 'https://github.com/Apridonidze/driver-tickets' , liveURL : 'https://driver-tickets.vercel.app/', technologies : ['React' , 'Boostrap' , 'Css', 'Express.js' , 'MySql' , 'Git']},
 
     ]
 
