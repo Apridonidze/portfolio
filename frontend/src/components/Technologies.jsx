@@ -43,7 +43,7 @@ const Technologies = () => {
             <div key={index} className="tech d-flex border border-secondary p-3 rounded-3 align-items-center"style={{ width: '220px' }} >
               <div className="tech-left me-3">
                   
-                <img src={tech.img} alt={tech.name} style={{ maxWidth: tech.maxWidth, height: 'auto' }} />
+                <img src={tech.img}  alt={tech.name} style={{ maxWidth: tech.maxWidth, height: 'auto' }} />
                   
               </div>
               
@@ -65,7 +65,7 @@ const Technologies = () => {
               <div key={id} className="tool d-flex border border-secondary p-3 rounded-3 align-items-center" style={{ width: '220px' }}  >
                 <div className="tool-left me-3">
                     
-                  <img src={tool.img} alt={tool.name} style={{ maxWidth: tool.maxWidth, height: 'auto' }} />
+                  <img src={tool.img} alt={tool.name} className='bg-white rounded-circle p-1' style={{ maxWidth: tool.maxWidth, height: 'auto' }} />
                     
                 </div>
                 
