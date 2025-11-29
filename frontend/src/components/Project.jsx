@@ -10,8 +10,8 @@ const Project = ( { project , key ,id } ) => {
                     <div className="project-button-background w-100 h-100 position-relative bg-dark opacity-50" ></div>
 
                     <div className="project-buttons position-relative w-100 h-100 align-items-center bottom-100 d-flex justify-content-center gap-2">
-                        <button className="btn btn-sm" style={{backgroundColor : '#0d1117' , color : 'white'}} onClick={project.git}><i class="fa-brands fa-github"></i>Github</button>
-                        {project.liveURL ? <button className="btn btn-sm" style={{backgroundColor : '#247bc2' , color : 'white'}}><i class="fa-solid fa-link"></i> Live</button> : <></>}
+                        <button className="btn btn-sm" style={{backgroundColor : '#0d1117' , color : 'white'}} onClick={() => window.open(project.gitURL)}><i class="fa-brands fa-github"></i>Github</button>
+                        {project.liveURL ? <button className="btn btn-sm" style={{backgroundColor : '#247bc2' , color : 'white'}} onClick={() => window.open(project.liveURL)}><i class="fa-solid fa-link"></i> Live</button> : <></>}
                     </div>
                 </div>
 
