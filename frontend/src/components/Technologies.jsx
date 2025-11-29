@@ -37,22 +37,27 @@ const Technologies = () => {
           <h3>Skills & Technologies</h3>
         </div>
 
-        <div className="technologies-body d-flex flex-wrap gap-3 px-2 py-2 justify-content-start">
+        <div className="technologies-body p-2">
+          <div className="row g-2">
           {techData.map((tech, index) => (
-            <div key={index} className="tech d-flex border border-secondary p-3 rounded-3 align-items-center"style={{ width: '220px' }} >
-              <div className="tech-left me-3">
-                  
-                <img src={tech.img}  alt={tech.name} style={{ maxWidth: tech.maxWidth, height: 'auto' }} />
-                  
-              </div>
-              
-              <div className="tech-right">
-                  <h5 className="mb-1">{tech.name}</h5>
-                  <small>{tech.desc}</small>
-              </div>
+            <div className="col-12 col-sm-6 col-lg-4">
+              <div key={index} className="d-flex border border-secondary p-3 rounded-3  h-100 align-items-center gap-3" >
+                
+                <div className="tech-left col-4">
+                    
+                  <img src={tech.img}  alt={tech.name} className='w-100 h-100' />
+                    
+                </div>
+                
+                <div className="tech-right text-break">
+                    <p className="mb-1 fs-5">{tech.name}</p>
+                    <small className='fs-6'>{tech.desc}</small>
+                </div>
 
-          </div>
+              </div>
+            </div>
         ))}
+        </div>
         </div>
 
         <div className="other-tools">
@@ -60,20 +65,24 @@ const Technologies = () => {
             <h3>Other Tools</h3>
           </div>
           <div className="other-tools-body  d-flex flex-wrap gap-3 px-2 py-2 justify-content-start">
+            <div className="row g-2">
             {otherTools.map((tool, id) => (
-              <div key={id} className="tool d-flex border border-secondary p-3 rounded-3 align-items-center" style={{ width: '220px' }}  >
-                <div className="tool-left me-3">
+              <div className="col-12 col-sm-6 col-lg-4">
+              <div key={id} className="d-flex border border-secondary p-3 rounded-3  h-100 align-items-center gap-3">
+                <div className="tool-left ">
                     
-                  <img src={tool.img} alt={tool.name} className='bg-white rounded-circle p-1' style={{ maxWidth: tool.maxWidth, height: 'auto' }} />
+                  <img src={tool.img} alt={tool.name} className='bg-white rounded-circle w-100 h-100' style={{maxWidth:'200px'}}/>
                     
                 </div>
                 
                 <div className="tool-right">
-                    <h5 className="mb-1">{tool.name}</h5>
-                    <small>{tool.desc}</small>
+                    <p className="mb-1 fs-5">{tool.name}</p>
+                    <small className='fs-6'>{tool.desc}</small>
                 </div>
           </div>
+          </div>
             ))}
+          </div>
           </div>
         </div>  
 
