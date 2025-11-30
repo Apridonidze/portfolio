@@ -38,7 +38,7 @@ const Profile = ( { setToggleAlert } ) => {
                 <h6 onClick={copyText}><i class="fa-solid fa-envelope" ></i> giorgiapridonidze08@gmail.com</h6>
                 <a className='link-underline link-offset-3 link-underline-opacity-0 link-underline-opacity-100-hover' href="https://www.linkedin.com/in/giorgi-aphridonidze-7aa896291/"><i class="fa-brands fa-square-linkedin"></i>in/giorgi-aphridonidze</a>
                 <a className='link-underline link-offset-3 link-underline-opacity-0 link-underline-opacity-100-hover' href="https://github.com/Apridonidze"><i class="fa-brands fa-square-github"></i>Apridonidze</a>
-                <a className='link-underline link-offset-3 link-underline-opacity-0 link-underline-opacity-100-hover' href={pdf} ><i class="fa-regular fa-file"></i> resume.pdf</a>
+                <a className='link-underline link-offset-3 link-underline-opacity-0 link-underline-opacity-100-hover' href={pdf} target="_blank"><i class="fa-regular fa-file"></i> resume.pdf</a>
             
             </div>
 
