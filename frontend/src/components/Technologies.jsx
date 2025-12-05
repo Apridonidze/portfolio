@@ -4,7 +4,9 @@ import expressImg from '../assets/tech imgs/express.png';
 import mysqlImg from '../assets/tech imgs/mysql.png';
 import htmlImg from '../assets/tech imgs/html.png';
 import cssImg from '../assets/tech imgs/css.png';
+import dockerImg from '../assets/tech imgs/docker.webp'
 import jsImg from '../assets/tech imgs/js.png'; //importing technologiy's imgs
+
 
 import gitImg from '../assets/tech imgs/git.png';
 import githubImg from '../assets/tech imgs/github.png';
@@ -24,6 +26,7 @@ const techData = [
 const otherTools = [
     { img: gitImg, name: 'Git', desc: 'Version Control'},
     { img: githubImg, name: 'GitHub', desc: 'Code Hosting'},
+    { img: dockerImg, name: 'Docker', desc: 'Code Containerization'},
     { img: vercelImg, name: 'Vercel', desc: 'Frontend Deployment'},
     { img: railwayImg, name: 'Railway', desc: 'Backend/Database Deployment'},
 ]; //array to easily map tools in component
@@ -77,7 +80,7 @@ const Technologies = () => {
                 
                 <div className="tool-right tech-left">
                     <p className="mb-1 fs-5">{tool.name}</p>
-                    <small className='fs-6'>{tool.desc}</small>
+                    <small className='fs-6 text-break'>{tool.desc}</small>
                 </div>
           </div>
           </div>
